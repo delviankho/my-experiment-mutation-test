@@ -1,0 +1,14 @@
+spring:
+  main:
+    banner-mode: OFF
+  datasource:
+    url: jdbc:h2:mem:testdb
+    password: password
+    username: sa
+
+logging:
+  config: classpath:logback-unit-test.xml
+  level:
+    root: OFF
+    org:
+      springframework: OFF

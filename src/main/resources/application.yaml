@@ -1,0 +1,14 @@
+springdoc:
+  version: '3.0'
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+spring:
+  main:
+    banner-mode: off
+
+server:
+  error:
+    include-message: always
